@@ -259,6 +259,7 @@ vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdpps.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libqdutils.so
+vendor/lib/libsdmcore.so|24fbeb63fac92f0ec8874e82d270993a6bc7ca3a|95b209b23a9e6c4c63fde81ecff59ed65dbd6fd8
 vendor/lib64/libsdmcore.so|88368fe2f77ecf8443e2bff0893df6034a3da17e|e3620993d4f60ed1bf78c767e082a7ae550815d4
 vendor/lib64/libsdmutils.so
 
@@ -564,6 +565,10 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
 # Iris (Dependencies)
+vendor/lib/libpwirisIoctlWrapper.so|cc5c6da7550e673e0e10363209b99b01c23d8d01
+vendor/lib/libpwirisfeature.so|ca3de6cd40536cf3487ef2581d27b514d144aed2
+vendor/lib/vendor.pixelworks.hardware.display@1.0.so|0dd80a17e912087d7f3ab26adba263440161140b
+vendor/lib/vendor.pixelworks.hardware.feature@1.0.so|77fb6e39329b0544a3037ad2928704360e2c70c0
 vendor/lib64/libpwirisIoctlWrapper.so
 vendor/lib64/libpwirisfeature.so
 vendor/lib64/libpwirishalwrapper.so
