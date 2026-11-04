@@ -259,7 +259,7 @@ vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libdpps.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libqdutils.so
-vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmcore.so|88368fe2f77ecf8443e2bff0893df6034a3da17e|e3620993d4f60ed1bf78c767e082a7ae550815d4
 vendor/lib64/libsdmutils.so
 
 # Display (SDM)

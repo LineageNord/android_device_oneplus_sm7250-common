@@ -113,6 +113,9 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('libqti-perfd-client.so\n', ''),
     'vendor/lib64/libdpps.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+    'vendor/lib64/libsdmcore.so': blob_fixup()
+        .sig_replace('88 B6 41 39 C8 02 00 35', '88 B6 41 39 68 04 00 35')
+        .sig_replace('E8 03 1F 2A F5 03 1F 2A 88 B6 01 39', '88 B6 41 39 F5 03 1F 2A 88 B6 01 39'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
