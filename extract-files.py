@@ -114,7 +114,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libdpps.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/libril-qc-hal-qmi.so': blob_fixup()
-        .binary_regex_replace(b'/cache/opponvitems/', b'/data/vendor/radio/'),
+        .binary_regex_replace(b'/cache/opponvitems/', b'/data/vendor/radio/')
+        .binary_regex_replace(b'/data/opponvitems/50049\x00', b'/data/vendor/ril/50049\x00\x00')
+        .binary_regex_replace(b'/data/opponvitems/\x00', b'/data/vendor/ril/\x00\x00'),
     'vendor/lib/libsdmcore.so': blob_fixup()
         .sig_replace('D6 B1 95 F8 3D 00 80 B9', 'F6 B1 95 F8 3D 00 C0 B9'),
     'vendor/lib64/libsdmcore.so': blob_fixup()
