@@ -65,9 +65,6 @@ vendor/lib/liba2dpoffload.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.oplus.hardware.performance@1.0.so
 
-# Audio firmware
-odm/firmware/tfa98xx.cnt
-
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
